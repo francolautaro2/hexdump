@@ -6,7 +6,7 @@ Build hexdump.exe
 g++ -o hexdump hexDump.cpp
 ```
 
-Use this
+Use in command line: 
 ```bash
 hexdump 'filename'
 ```
