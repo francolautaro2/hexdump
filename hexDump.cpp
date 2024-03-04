@@ -29,6 +29,7 @@ string stringToHex(const string& input) {
     stringstream ss;
     for (size_t i = 0; i < input.length(); i++){
         ss << charToHex((unsigned char)input[i]);
+        ss << setw(0);
     }
     return ss.str();
 }
